@@ -1,0 +1,73 @@
+.main-wrapper{
+    background-color: #284B63;
+}
+
+.inner-wrapper{
+    height: 75%;
+    background-color: #D9D9D9;
+}
+
+.form-container{
+    object-fit: cover;
+}
+
+img{
+    opacity: 0.3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+input.form-control
+{
+    background-color: #284B63;
+    color: #D9D9D9;
+}
+
+.form-control:focus{
+    background-color: #284B63;
+    color: #D9D9D9;
+}
+
+.form-control::placeholder{
+    background-color: #284B63;
+    color: #D9D9D9;
+}
+
+textarea.form-control
+{
+    background-color: #284B63;
+    color: #D9D9D9;
+}
+
+.title-main{
+    color: #D9D9D9;
+}
+
+.heading{
+    color: #3C6E71;
+}
+
+.card-container{
+    height: 65vh;
+    padding-bottom: 18px;
+}
+
+.card{
+    background-color: #353535;
+    color: #D9D9D9;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-submit{
+    background-color: rgb(60, 110, 113);
+    color: #D9D9D9;
+}
+
+.btn-submit:hover{
+    background-color: rgba(60, 110, 113, 0.7);
+    border: 1px solid #284B63;;
+    color: #D9D9D9;
+}
